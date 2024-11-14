@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/clientImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_2"
+        android:contentDescription="Изображение клиента"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/clientCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Компания: ABC Ltd."
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/clientContactPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Контактное лицо: Иван Иванов"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/clientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Телефон: +123456789"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/clientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: ivan@abc.com"
+        android:textSize="16sp"/>
+
+</LinearLayout>

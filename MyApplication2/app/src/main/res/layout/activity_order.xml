@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/orderDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата заказа: 01.11.2024"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/orderBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Бюджет: 100,000 руб."
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/orderDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Срок выполнения: 30.11.2024"
+        android:textSize="16sp"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/employeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Изображение работника"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/employeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ФИО: Иван Иванов"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/employeePosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Позиция: Менеджер"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/employeeSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зарплата: 50,000 руб."
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/employeeExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Опыт: 5 лет"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/employeeContractInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о контракте: Постоянный контракт"
+        android:textSize="16sp"/>
+
+</LinearLayout>
